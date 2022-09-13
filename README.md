@@ -6,9 +6,10 @@ STEP 3) Click button below
 
 <a href="https://gitpod.io/#https://github.com/lawrence0arabia/gitpod-test/">
   <img
-    src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
+    src="https://splashkit.io/images/favicon.ico"
     alt="Launch SplashKit Environment"
   />
 </a>
 
 STEP 4) Enter "y" in terminal for all installation prompts <!-- (TODO: automate this) -->
+https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod
