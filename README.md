@@ -10,7 +10,7 @@ STEP 2) Modify href in button below to point to your fork (eg. `https://gitpod.i
 
 STEP 3) Click SplashKit icon below
       
-<a href="https://gitpod.io/#https://github.com/lawrence0arabia/gitpod-test/">
+<a style="text-align:center; href="https://gitpod.io/#https://github.com/lawrence0arabia/gitpod-test/">
   <img
     src="https://splashkit.io/images/favicon.ico"
     alt="Launch SplashKit Environment"
