@@ -19,4 +19,4 @@ STEP 3) Click SplashKit icon below
 
 STEP 4) Enter "y" in terminal for all installation prompts <!-- (TODO: automate this) -->
 
-STEP 5) To save files for later, you will need to commit them to your fork of this GitHub repository. To do this you will need to go into your gitpod account settings and request GitHub write permissions.
+STEP 5) To save files for later, you will need to commit them to your fork of this GitHub repository. To do this you will need to go into your gitpod account settings and request GitHub write permissions
