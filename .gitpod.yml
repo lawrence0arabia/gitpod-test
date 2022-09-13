@@ -1,0 +1,10 @@
+# This YAML file specifies all settings for Gitpod workspace, including which Docker image to use (hosted somewhere publicly)
+# NOTE: In future we may wish to decrease environment spin-up time by creating a public Docker Image with splashkit and other tools preinstalled,
+# for now this is beyond scope as we are just trying to get an MVP running
+
+# Docker image (standard gitpod Ubuntu image)
+image: ubuntu:latest
+
+tasks:
+  - name: Install SplashKit
+  init: apt install curl git -y && bash <(curl -s https://raw.githubusercontent.com/abvitasa/splashkit-installer/master/sk-install-ubuntu-image.sh)
