@@ -9,4 +9,4 @@ tasks:
   - name: Install SplashKit
     init: sudo apt  install curl git -y && bash <(curl -s https://raw.githubusercontent.com/abvitasa/splashkit-installer/master/ubuntu-image.sh)
     command: exit
-    command: skm
+    command: sh skm
