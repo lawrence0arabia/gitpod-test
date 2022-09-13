@@ -7,4 +7,4 @@ image: ubuntu:latest
 
 tasks:
   - name: Install SplashKit
-    init: apt install curl git -y && bash <(curl -s https://raw.githubusercontent.com/abvitasa/splashkit-installer/master/sk-install-ubuntu-image.sh)
+    init: apt install curl git -y && bash <(curl -s https://raw.githubusercontent.com/abvitasa/splashkit-installer/master/ubuntu-image.sh)
