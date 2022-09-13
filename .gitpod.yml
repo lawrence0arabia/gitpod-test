@@ -13,3 +13,4 @@ tasks:
   - name: Test skm
     init: gp sync-await InstallSK
     command: skm
+    openMode: tab-after
