@@ -3,7 +3,7 @@
 # for now this is beyond scope as we are just trying to get an MVP running
 
 # Docker image (standard gitpod Ubuntu image)
-image: ubuntu:latest
+# image: ubuntu:latest
 
 tasks:
   - name: Install SplashKit
