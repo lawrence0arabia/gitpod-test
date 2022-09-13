@@ -6,7 +6,7 @@ You should test SplashKit with the exampleProgram, check out the README.md file 
 
 STEP 1) Fork this repo
 
-STEP 2) Modify href in button below to point to your fork (eg. `https://gitpod.io/#[PASTE REPO URL HERE]`)
+STEP 2) Modify href in button below to point to your fork (eg. `https://gitpod.io/#[PASTE NEW REPO URL HERE]`)
 
 STEP 3) Click SplashKit icon below
       
