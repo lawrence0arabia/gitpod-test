@@ -7,7 +7,7 @@
 
 tasks:
   - name: Install SplashKit
-    init: sudo apt  install curl git -y && bash <(curl -s https://raw.githubusercontent.com/abvitasa/splashkit-installer/master/ubuntu-image.sh) && sync-done InstallSK
+    init: sudo apt  install curl git -y && bash <(curl -s https://raw.githubusercontent.com/abvitasa/splashkit-installer/master/ubuntu-image.sh) && gp sync-done InstallSK
     command: exit
 
   - name: Test skm
