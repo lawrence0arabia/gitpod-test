@@ -10,3 +10,5 @@ STEP 3) Click button below
     alt="Launch SplashKit Environment"
   />
 </a>
+
+STEP 4) Enter "y" in terminal for all installation prompts <!-- (TODO: automate this) -->
