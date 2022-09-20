@@ -8,8 +8,8 @@
 tasks:
   - name: Install skm
     before: bash <(curl -s https://raw.githubusercontent.com/abvitasa/splashkit-installer/master/ubuntu-image.sh)
-    init: exit
-    command: gp sync-done skm_installed
+    init: gp sync-done skm_installed
+    command: exit
     
   - name: Using skm, install splashkit for linux
     init: gp sync-await skm_installed
