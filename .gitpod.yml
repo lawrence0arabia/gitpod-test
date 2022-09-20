@@ -15,6 +15,7 @@ tasks:
     before: gp sync-await skm_installed
     init: sleep 3
     command: gp sync-done skm_done && exit
+    openMode: tab-after
     
   - name: Using skm, install splashkit for linux
     init: gp sync-await skm_done
