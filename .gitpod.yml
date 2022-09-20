@@ -7,7 +7,7 @@
 
 tasks:
   - name: Install skm
-    before: bash <(curl -s https://raw.githubusercontent.com/abvitasa/splashkit-installer/master/ubuntu-image.sh)
+    before: bash <(curl -s https://raw.githubusercontent.com/lawrence0arabia/gitpod-splashkit-installer/master/ubuntu-image.sh)
     init: gp sync-done skm_installed
     command: exit
     
