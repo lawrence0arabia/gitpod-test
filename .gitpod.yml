@@ -7,5 +7,6 @@
 
 tasks:
   - name: Install SplashKit
-    init: bash <(curl -s https://raw.githubusercontent.com/abvitasa/splashkit-installer/master/ubuntu-image.sh)
-    command: exit
+    before: bash <(curl -s https://raw.githubusercontent.com/abvitasa/splashkit-installer/master/ubuntu-image.sh)
+    init: exit
+    command: skm linux install
