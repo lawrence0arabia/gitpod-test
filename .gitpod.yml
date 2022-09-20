@@ -8,7 +8,6 @@
 tasks:
   - name: Install skm
     init: bash <(curl -s https://raw.githubusercontent.com/lawrence0arabia/gitpod-splashkit-installer/master/ubuntu-image.sh) && gp sync-done skm_installed && exit
-    command: skm linux install
     
   - name: Wait for skm install
     command: gp sync-await skm_installed && sleep 3 && gp sync-done skm_done && exit
