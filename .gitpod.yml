@@ -6,7 +6,9 @@
 # image: ubuntu:latest
 
 tasks:
-  - name: Install SplashKit
+  - name: Install skm
     before: bash <(curl -s https://raw.githubusercontent.com/abvitasa/splashkit-installer/master/ubuntu-image.sh)
     init: exit
+  - name: Using skm, install splashkit for linux
     command: skm linux install
+    openMode: tab-after
