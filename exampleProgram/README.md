@@ -8,17 +8,13 @@ Steps to run the program:
     - Click "New Terminal"
     Alternatively, use control + shift + ` (this is called a backtick by the way!)
 
-2) Install SplashKit Linux library
-    - Enter the command:
-        skm linux install
-
-3) Compile program.cpp
+2) Compile program.cpp
     - Enter the command:
         skm clang++ program.cpp -o program
         Where "program.cpp" is the source code and "program" is the name of the output file (it doesn't have to be program)
     (If you get the error "no such file or directory", make sure you are in the correct directory. You can change directories in the terminal with the command "cd [directory name]", and use "cd ../" to go back one directory)
 
-4) Run program
+3) Run program
     - Enter the command:
         ./program
 
