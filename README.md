@@ -10,7 +10,7 @@ STEP 1) Fork this repo
 
 STEP 2) Modify href in button below to point to your fork (eg. `https://gitpod.io/#[PASTE NEW REPO URL HERE]`)
 
-STEP 3) Click SplashKit icon below
+STEP 3) Click the SplashKit icon below
       
 <a href="https://gitpod.io/#https://github.com/lawrence0arabia/gitpod-test/" target="_blank" rel="noopener noreferrer">
   <img
