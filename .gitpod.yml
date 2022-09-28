@@ -4,10 +4,10 @@
 
 # Docker image (standard gitpod Ubuntu image)
 # image: ubuntu:latest
-
+github.com/thoth-tech/splashkit-aio/gitpod-installer.sh
 tasks:
   - name: Install skm
-    init: bash <(curl -s https://raw.githubusercontent.com/lawrence0arabia/gitpod-splashkit-installer/master/ubuntu-image.sh) && gp sync-done skm_installed && exit
+    init: bash <(curl -s https://raw.githubusercontent.com/thoth-tech/splashkit-aio/gitpod-installer.sh) && gp sync-done skm_installed && exit
     
   - name: Wait for skm install
     command: gp sync-await skm_installed && sleep 3 && gp sync-done skm_done && exit
