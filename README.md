@@ -4,6 +4,8 @@ If you've opened this in the gitpod IDE and can read this comment, you have prob
 You should test SplashKit with the exampleProgram, check out the README.md file in that directory for more details.
 -->
 
+This repo is for the development and testing of a SplashKit Gitpod environment, allowing users to learn and develop SplashKit from any web-capable device. Steps 1 and 2 are only necessary if you want to permanently save files in your own repo, if you just want to test the environment you can skip straight to step 3.
+
 STEP 1) Fork this repo
 
 STEP 2) Modify href in button below to point to your fork (eg. `https://gitpod.io/#[PASTE NEW REPO URL HERE]`)
